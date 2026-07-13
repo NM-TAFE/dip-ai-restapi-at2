@@ -1,3 +1,4 @@
+# Minimal sample error payload for class discussion.
 data = { 
   "jsonrpc": "2.0", 
   "id": 1, 
