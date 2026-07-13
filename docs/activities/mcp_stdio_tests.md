@@ -58,7 +58,7 @@ python converter_stdio_server.py
 {"jsonrpc":"2.0","method":"tools/call","params":{"name":"celsius_to_fahrenheit","arguments":{"celsius":25}},"id":3}
 ```
 
-3. Troubleshooting (Windows)
+## 4. Troubleshooting (Windows)
 
 - **JSON quoting in PowerShell**: Use escaped double quotes inside the `--params` string, e.g. `"{\"miles\": 3.1}"`.
 - **Inspector fails to run your Python**: Use the full venv path:  
@@ -68,7 +68,7 @@ python converter_stdio_server.py
 
 ---
 
-4. Out of class task
+## 5. Out of class task
 
 - Add a new conversion tool (e.g., meters +
   to/from feet) via `TOOL_DEFINITIONS`; re‑run the activity.
