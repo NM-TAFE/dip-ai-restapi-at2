@@ -37,7 +37,7 @@ Run this **in the shell, not inside the Python REPL**. If you’re in a `>>>` pr
 uvicorn converter_streamable_http_server:app --host 127.0.0.1 --port 8000
 ```
 - If `--reload` throws “Operation not permitted”, omit it.
-- Open http://127.0.0.1:8000/docs and http://127.0.0.1:8000/mcp/docs.
+- Open http://127.0.0.1:8000/docs and use the MCP endpoint at http://127.0.0.1:8000/mcp.
 
 ## 4) Explore FastAPI in an async-friendly REPL
 Use `python -m asyncio` so `await` works at top level.
