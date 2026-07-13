@@ -4,7 +4,7 @@ Hands-on activity for students to install dependencies one at a time, run the se
 
 ## Prereqs
 - macOS/Linux shell, Python 3.12.
-- Repo root: `mcp_session6_example`.
+- Repo root: `AT2 Build MCP Server`. The scaffold originates from the session 6 example code.
 
 ## 1) Create & activate a virtual environment
 ```bash
@@ -95,12 +95,7 @@ python -m asyncio
 - Don’t call `list_tools` on `mcp.http_app` or on `FastMCP.from_openapi(...)`; those return the OpenAPI adapter that lacks tool methods.
 
 ## 7) System health route
-The project now ships with a built-in `/health` route (defined in `converter_streamable_http_server.py`). You can just start the server and hit it:
-```bash
-curl http://127.0.0.1:8000/health | jq
-```
-
-If you want to recreate it manually in the REPL instead, use:
+The `/health` route is provided here as an optional class example. If you want to add or recreate it manually in the REPL, use:
 ```python
 >>> from fastapi import APIRouter
 >>> import platform, datetime, os, time  # stdlib only
