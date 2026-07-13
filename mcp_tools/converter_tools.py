@@ -132,6 +132,8 @@ def miles_to_kilometers(miles: float):
 
 
 # --- Metadata for MCP tool registration ----
+# Students can edit these sample tool entries or replace them entirely
+# with tool definitions for their own assessment context.
 
 TOOL_DEFINITIONS = [
     {

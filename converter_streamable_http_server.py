@@ -62,6 +62,8 @@ _started_at = time.time()
 app.include_router(system_router)
 
 # FastMCP server generated from FastAPI OpenAPI (tools) plus manual resources/prompts
+# Students can keep this transport setup and replace the sample
+# tools, resources, and prompts with their own assessment context.
 mcp = FastMCP.from_fastapi(
     app,
     name="Unit Converter MCP Server",

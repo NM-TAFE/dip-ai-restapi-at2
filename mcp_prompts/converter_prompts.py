@@ -52,6 +52,8 @@ def api_usage_prompt() -> List[Dict[str, str]]:
     ]
 
 
+# Students can edit these sample prompt entries or replace them entirely
+# with prompt definitions for their own assessment context.
 PROMPT_DEFINITIONS = [
     {
         "name": "explain_conversion",

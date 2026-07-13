@@ -25,6 +25,8 @@ configure_logging(
 
 mcp = FastMCP("Unit Converter (STDIO)")
 
+# Students can keep this STDIO transport setup and swap in their own
+# tools, resources, and prompts from the example modules below.
 # TODO To run the stdio server only using npx @modelcontextprotocol/inspector python converter_stdio_server.py
 
 # --- Register tools ---

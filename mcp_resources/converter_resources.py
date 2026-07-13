@@ -49,7 +49,8 @@ def troubleshooting_guide() -> str:
         ]
     )
 
-# How would we scope this?
+# Students can edit these sample resource entries or replace them entirely
+# with resource definitions for their own assessment context.
 RESOURCE_DEFINITIONS = [
     {
         "name": "unit_reference",
