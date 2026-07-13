@@ -36,7 +36,7 @@ npx @modelcontextprotocol/inspector .\venv\Scripts\python.exe converter_stdio_se
 
 - **Tools**: `celsius_to_fahrenheit`, `fahrenheit_to_celsius`, `kilometers_to_miles`, `miles_to_kilometers`
 - **Resources**: `resource://unit_reference`, `resource://troubleshooting_guide`  
-  You can invoke tools and preview resources directly in the UI. citeturn11search41
+  You can invoke tools and preview resources directly in the UI.
 
 ---
 
