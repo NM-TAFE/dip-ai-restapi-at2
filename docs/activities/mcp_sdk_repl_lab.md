@@ -15,6 +15,7 @@ python --version            # expect 3.12.x
 
 ## 2) Install requirements one by one
 Read `requirements.txt`, then install line-by-line, checking each.
+The packages below are the session 6 example stack used for this scaffold.
 ```bash
 python -m pip install --upgrade pip
 pip install fastapi
