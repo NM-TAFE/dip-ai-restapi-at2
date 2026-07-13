@@ -19,6 +19,16 @@ It includes class-session examples showing how to build and test an MCP server w
 - any sample testing evidence with their own testing evidence
 - the development journal content with their own progress record
 
+## Assessment Mapping
+
+- tools example: `mcp_tools/converter_tools.py`
+- resources example: `mcp_resources/converter_resources.py`
+- prompts example: `mcp_prompts/converter_prompts.py`
+- STDIO server example: `converter_stdio_server.py`
+- Streamable HTTP server example: `converter_streamable_http_server.py`
+- example HTTP/MCP test activity: `docs/activities/mcp_curl_tests.md`
+- example STDIO test activity: `docs/activities/mcp_stdio_tests.md`
+
 ## Prerequisites
 
 - Python 3.10+ (tested with 3.12).
