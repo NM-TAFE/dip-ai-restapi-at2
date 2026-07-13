@@ -8,7 +8,7 @@ It includes class-session examples showing how to build and test an MCP server w
 - provide a working reference structure students can run locally
 - demonstrate one example context using a unit converter
 - show where MCP tools, resources, prompts, and transport setup live
-- give students example test documents and reference artifacts from class
+- give students example test documents from class
 
 ## What Students Are Expected To Replace
 
@@ -17,7 +17,7 @@ It includes class-session examples showing how to build and test an MCP server w
 - the example resources in `mcp_resources/`
 - the example prompts in `mcp_prompts/`
 - any sample testing evidence with their own testing evidence
-- the development journal content with their own progress record
+- any sample documentation with their own progress record
 
 ## Assessment Mapping
 
