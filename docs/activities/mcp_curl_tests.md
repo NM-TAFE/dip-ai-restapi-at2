@@ -1,6 +1,6 @@
 # MCP curl test pack
 
-Use these commands against the running MCP/HTTP server started with `python calculator_api_tutorial.py` (defaults to `http://localhost:8003`).
+Use these commands against the running MCP/HTTP server started with `python converter_streamable_http_server.py` (defaults to `http://localhost:8003`).
 
 The MCP endpoints do **not** require auth headers; the plain HTTP conversion routes can optionally accept an `Authorization: Bearer <token>` header (sample tokens are shown below).
 

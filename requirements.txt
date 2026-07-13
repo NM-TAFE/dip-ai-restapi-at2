@@ -1,6 +1,11 @@
-# Our framework
+# Starter template for class activities.
+# Add the packages required for your own MCP server below.
+# If you keep this repo runnable as a scaffold, replace these comments with
+# the actual dependency list used by the example project.
+#
+# Example packages discussed in class:
 # uvicorn
 # fastmcp
-# fastapi 
-# fastapi-mcp 
+# fastapi
+# fastapi-mcp
 # feedparser
