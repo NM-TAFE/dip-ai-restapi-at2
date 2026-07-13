@@ -46,12 +46,12 @@ npx @modelcontextprotocol/inspector .\venv\Scripts\python.exe converter_stdio_se
 - MCP STDIO allows us to interact manually to see protocol flow.
 
 ```bash
-# Start the STDIO server manuallr
-python -m converter_stdio-server
+# Start the STDIO server manually
+python converter_stdio_server.py
 ```
 
 ```json
-// Paste messages in order (one line each)- this os shorthand of lifecycle and basic tool usage.
+// Paste messages in order (one line each) - this is shorthand of lifecycle and basic tool usage.
 {"jsonrpc":"2.0","method":"initialize","params":{"protocolVersion":"2025-03-26","capabilities":{},"clientInfo":{"name":"windows-shell","version":"0.1"}},"id":1}
 {"jsonrpc":"2.0","method":"notifications/initialized"}
 {"jsonrpc":"2.0","method":"tools/list","id":2}
