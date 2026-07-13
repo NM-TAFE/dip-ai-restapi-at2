@@ -130,7 +130,7 @@ Our server doesn’t require auth yet, we can omit the **Authorization** header.
   "servers": {
     "UnitConverter": {
       "command": "python",
-      "args": ["converter_api_tutorial.py"]
+      "args": ["converter_stdio_server.py"]
     }
   }
 }
@@ -187,7 +187,7 @@ curl -s -X POST <SERVER_URL> \
 ```bash
 curl -s -X POST <SERVER_URL> \
 -H "Content-Type: application/json" \
--d '{"jsonrpc":"2.0","method":"prompts/get","params":{"name":"summarize"},"id":2}'
+-d '{"jsonrpc":"2.0","method":"prompts/get","params":{"name":"explain_conversion","arguments":{}},"id":2}'
 ```
 
 ⸻
@@ -197,7 +197,7 @@ curl -s -X POST <SERVER_URL> \
 ```bash
 curl -s -X POST <SERVER_URL> \
 -H "Content-Type: application/json" \
--d '{"jsonrpc":"2.0","method":"prompts/render","params":{"name":"summarize","variables":{"text":"This is the content to summarize","tone":"neutral"}},"id":3}'
+-d '{"jsonrpc":"2.0","method":"prompts/get","params":{"name":"explain_conversion","arguments":{"input_value":"25","input_unit":"celsius","target_unit":"fahrenheit"}},"id":3}'
 ```
 
 4. List available resources
@@ -213,7 +213,7 @@ curl -s -X POST <SERVER_URL> \
 ```bash
 curl -s -X POST <SERVER_URL> \
 -H "Content-Type: application/json" \
--d '{"jsonrpc":"2.0","method":"resources/read","params":{"uri":"file:///data/report.pdf"},"id":5}'
+-d '{"jsonrpc":"2.0","method":"resources/read","params":{"uri":"resource://unit_reference"},"id":5}'
 ```
 
 6. Search resources (if supported)
